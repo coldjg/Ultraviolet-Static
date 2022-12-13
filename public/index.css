@@ -12,13 +12,14 @@
 body {
   font-family: "Roboto", sans-serif;
   margin: 0;
-  background: #111;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
   animation: fadeInAnimation ease-in-out 0.3s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
+  background-attachment: fixed;
+  background: url("dot.png");
 }
 
 .fa-magnifying-glass {
@@ -82,7 +83,7 @@ body {
 }
 
 .logo-wrapper h1 {
-  color: white;
+  color: #B0B0B0;
 }
 
 footer {
@@ -113,7 +114,7 @@ footer a:hover {
 
 .desc p {
   width: 560px;
-  color: rgba(253, 253, 253, 0.514);
+  color: #B0B0B0;
 }
 
 form input {
