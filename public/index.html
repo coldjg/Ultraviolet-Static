@@ -16,115 +16,142 @@
       media="(prefers-color-scheme: dark)"
       content="#434c5e"
     />
-    <meta name="googlebot" content="index, follow, snippet" />
     <link rel="shortcut icon" content="favicon.ico" />
-    <link rel="stylesheet" href="index.css" />
     <script src="uv/uv.bundle.js" defer></script>
     <script src="uv/uv.config.js" defer></script>
     <script src="register-sw.js" defer></script>
     <script src="search.js" defer></script>
     <script src="index.js" defer></script>
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "What is Ultraviolet (Web Proxy)?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Highwy sophisticated pwoxy uwsed fow evading intewnet censowship ow accessing websites in a contwowwed sandbox uwsing the powew of sewvice-wowkews and mowe! OwO"
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "How do I unblock sites using Ultraviolet?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Simpwy head to an officiaw site featuwwing uwtwaviowet suwch as howy unbwockew ow incognito! OwO youw can awso sewf-host uwtwaviowet on uw own web sewvew fow maximuwm pwivacy. *pounces on your search history* uWu"
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "What if Ultraviolet is blocked or not working?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Puwt on an epic hackewman hoodie and hack the stuwpid bwockpage away!~"
-            }
-          }
-        ]
+    <style>
+      @keyframes borderchange {
+        0% {
+          border-radius: 50px;
+        }
+        100% {
+          border-radius: 6px;
+        }
       }
-    </script>
-  </head>
+      @keyframes movingBg {
+        0% {
+          background-position: 0px 0px;
+        }
+        100% {
+          background-position: 29px 29px;
+        }
+      }
+      body {
+        font-family: "Comic Sans MS", "Comic Sans", Arial, Helvetica, sans-serif;
+        color: purple;
 
+        background: url(dot.png);
+        animation: movingBg 0.5s linear infinite;
+      }
+
+      div {
+        margin-top: 10px;
+      }
+
+      .backDrop {
+        border-radius: 5px;
+        border-style: dashed 3px purple;
+        background-color: rgba(255, 255, 255, 0.6);
+      }
+
+      .centerChild {
+        display: flex;
+        justify-content: center;
+      }
+
+      #logo {
+        width: 20%;
+      }
+
+      form input {
+        height: 48px;
+        width: 70%;
+        margin-left: 15%; /*center*/
+
+        text-align: left;
+        font-weight: bold;
+        font-size: 24px;
+
+        border-radius: 50px;
+        border: 8px dotted purple;
+        background: rgba(255, 0, 255, 0.5);
+
+        transition: all 0.3s linear;
+      }
+
+      form input:focus {
+        border-radius: 6px;
+      }
+
+      ::placeholder {
+        text-align: center;
+        font-weight: bold;
+        font-size: 24px;
+        color: #0085b950;
+      }
+    </style>
+  </head>
   <body>
-    <div
-      title="Ultraviolet Logo"
-      class="flex-center logo-wrapper header-center"
-    >
-      <img class="logo" src="uwuv.png" alt="Ultraviolet" />
-      <h1
-        title="Ultraviolet supports YouTube, GeForce NOW and more! Proxy by TitaniumNetwork."
-      >
-        Uwtwaviowet | Titaniuwmnetwowk Nya~! |n＾ω＾|η
-      </h1>
+    <div class="centerChild">
+      <img src="uwuv.png" id="logo" />
     </div>
-    <div
-      title="Uwtwaviowet uwses the powew of sewvice-wowkews and mowe! OwO unbwock many sites today with uwtwaviowet! OwO"
-      class="flex-center desc"
-    >
-      <p>
-        Uwtwaviowet is highwy sophisticated pwoxy uwsed fow evading intewnet
-        censowship.Dis website ish way easiew to use with a usewscwipt, contact someone#8457 on discowd fow hewp with that if u find youwsewf using dis website ovew 10 times a day if u awen't on schoow-issued hawdwawe, it ish pwobbabwy easiew to just use mobiwe data ow a vpn, pwoton fwee ow bettewnet seems to bypass. awso ik dis page ish bwoken iww fix it when me feew wike it!~ ૮ ˶ᵔ ᵕ ᵔ˶ ა
-      </p>
+    <div class="centerChild">
+      <div class="backDrop">
+        <h1 style="margin: 10px 50px">
+          Uwtwaviowet bwy Titaniuwmnetwowk Nya~! |n＾ω＾|η
+        </h1>
+      </div>
     </div>
-    <form id="uv-form" class="flex-center">
+    <div class="centerChild">
+      <div class="backDrop" style="width: 800px">
+        <p style="padding-left: 30px; padding-right: 30px">
+          The uwtwaviowet pwoxy is a supew k-kawaii and speedy p-pwoxy that can
+          b-bypass the schoow w-web fiwtews and o-othew fiwewawws. òωó
+          <br />
+          <br />
+          I highwy wecomend nyot signing in o-on websites, because i-i couwd be
+          s-steawing youw cwedentiaws, (U ᵕ U❁) b-but i-if you must, (⑅˘꒳˘) i
+          think y-you can use d-discowd qr wogin! ( o ω o )
+          <br />
+          <br />
+          Contawct someone#8457 on discowd with q-questions and c-concewns!
+          nya~!
+          <br />
+          <br />
+          you can awso use pwotonvpn, OwO bettewnet, 🥺 o-ow mobiwe d-data to
+          skiwt the f-fiwewawws :)
+        </p>
+      </div>
+    </div>
+    <div></div>
+    <form id="uv-form">
       <input
         id="uv-search-engine"
         value="https://www.duckduckgo.com/?q=%s"
         type="hidden"
       />
-      <input id="uv-address" type="text" placeholder="Seawch the web fweewy with duwckduwckgo ow entew URL" />
+      <input
+        id="uv-address"
+        type="text"
+        placeholder="Seawch the web fweewy with duwckduwckgo ow entew URL"
+        autofocus
+      />
     </form>
-    <div class="flex-center">
-      <a href="https://invidious.fdn.fr">uwnbwocked utuwbe</a>
-      <a href="https://bob.fr.to">uwnbwocked weddit</a>
-      <p> dm someone#8457 for link suggestions </p>
+    <div class="centerChild">
+      <div
+        class="backDrop"
+        style="width: 740px; padding-left: 30px; padding-right: 30px"
+      >
+        <br />
+        <a href="https://invidious.fdn.fr">uwnbwocked utuwbe</a>
+        <br />
+        <a href="https://bob.fr.to">uwnbwocked weddit</a>
+        <br />
+        <p>dm someone#8457 for link suggestions</p>
+      </div>
     </div>
-    
-    <div class="desc left-margin">
-      <p id="uv-error"></p>
-      <pre id="uv-error-code"></pre>
-    </div>
-    <footer>
-      <a
-        title="Ultraviolet is a web proxy service maintained by TitaniumNetwork!"
-        href="https://github.com/titaniumnetwork-dev"
-        >TitaniumNetwork</a
-      >
-      <a
-        title="Join the TitaniumNetwork Discord for more proxy services like Holy Unblocker or Incognito featuring Ultraviolet."
-        href="https://discord.gg/unblock"
-        >Discord</a
-      >
-      <a
-        title="Massive project partnered with TitaniumNetwork, Ultraviolet being the prime example."
-        href="https://github.com/tomphttp"
-        >TompHTTP</a
-      >
-      <a
-        title="The official deployment repository for Ultraviolet, a web proxy service which can be used to unblock sites at school and more!"
-        href="https://github.com/titaniumnetwork-dev/Ultraviolet-Node"
-        >GitHub</a
-      >
-      <a
-        title="For privacy implications related to Ultraviolet."
-        href="https://github.com/titaniumnetwork-dev/Ultraviolet/raw/main/LICENSE"
-        style="margin-left: auto"
-        >License</a
-      >
-      <span>Ultraviolet &copy; TN 2022</span>
-    </footer>
   </body>
 </html>
